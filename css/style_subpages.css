@@ -173,8 +173,8 @@ li {
 
 .intro a {
 	/*margin: 0px 20px;*/
-	color: #128600;
-	text-decoration: none;
+	color: black;
+	text-decoration: underline;
 }
 
 .intro a:hover{
