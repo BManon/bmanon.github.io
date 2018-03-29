@@ -2,18 +2,6 @@
   box-sizing: border-box;
 }
 
-/*.background_opacity{
-	position: absolute;
-	top: 250px;
-	z-index: -10;
-	top: 0; left: 0; right: 0; bottom: 0;
-	/*background-color: rgba(255, 255, 255, 0.3);*/ /* L'opacite se regle ici
-	background-color: rgba(190,213,254,0.4);
-	overflow:auto;
-}
-*/
-
-
 h1 {
 	font-family:Candara;
 	font-size:30px;
