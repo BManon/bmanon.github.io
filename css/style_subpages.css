@@ -224,6 +224,9 @@ table td{
 	text-align: center;
 	
 }
+.texte p{
+	text-align:justify;
+}
 
 .texte_element{
 	display: inline-block;
@@ -237,4 +240,10 @@ table td{
 	background: hsl(197,100%,90%);
 	border-radius: 15px;
 	/*width:30%;*/
+}
+
+#legende {
+	font-style:italic;
+	font-size: smaller;
+	text-align: center;
 }
