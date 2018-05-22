@@ -169,6 +169,10 @@ li {
 	font-weight: bold;
 } 
 
+.intro p{
+	text-align: justify;
+}
+
 .programme{
 	position: relative;
 	top: 200px;
