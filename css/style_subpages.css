@@ -96,13 +96,9 @@ header .navigation a:hover{
 	padding:0px;
 	
 }
-/*
-#menu_principal li ul li{
-	margin: 0px;
-	padding:0px;
-}
-*/
-#menu_principal li ul li a{
+
+
+#menu_principal li ul a li{
 	font-family:Raleway, sans-serif;
 	text-decoration: none;
 	border-radius : 3px;
@@ -111,6 +107,7 @@ header .navigation a:hover{
 	background: none;
 	color: hsl(0,100%,25%);
 	text-transform: none;
+	width:100%;
 	/*border: 1px solid hsl(0,100%,25%);*/
 	/*margin: 0px;*/
 }
@@ -128,7 +125,7 @@ header .navigation a:hover{
 	background: hsl(0,100%,25%);
 }
 
-#menu_principal li ul li:hover a{
+#menu_principal li ul a li:hover{
 	color: #FFF;
 	/*margin: 0px;*/
 }
@@ -153,17 +150,22 @@ header .navigation a:hover{
 	
 }
 
-#menu li ul li a{
-	margin: 0px;
-	padding:0px;
+#menu li ul a li{
+	/*margin: 0px;*/
+	padding:10px;
+	/*background: none;*/
+	/*color: hsl(0,100%,25%);*/	
+	/*text-transform: none;*/
+	/*border:none;*/
+}
+
+#menu li ul a{
+	margin:0px;
 	background: none;
+	padding:0px;
 	color: hsl(0,100%,25%);
 	text-transform: none;
 	border:none;
-}
-
-#menu li ul li{
-	margin:0px;
 }
 
 #menu li:hover ul{
@@ -171,7 +173,7 @@ header .navigation a:hover{
 	min-height: 0;
 }	
 
-#menu li ul li:hover{
+#menu li ul a:hover{
 	background: hsl(0,100%,25%);
 	border-radius:0px;
 	display: inline-block;
@@ -179,7 +181,7 @@ header .navigation a:hover{
 	margin:0px;
 }
 
-#menu li ul li:hover a{
+#menu li ul a:hover li{
 	color: #FFF;
 	text-transform: none;
 	/*border:none;*/
