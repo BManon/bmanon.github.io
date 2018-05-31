@@ -70,37 +70,49 @@ header .navigation a:hover{
 	color: hsl(0,100%,25%) /*maroon*/;
 }
 
-#menu_principal a {
+
+#menu_principal {
 	position:fixed;
 	float: left;
 	z-index:6;
-	/*margin: 10px;*/
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
 } 
+
+#menu_principal li {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
 
 #menu_principal li ul {
 	position: absolute;
 	left: -999em;
 	border: 1px solid hsl(0,100%,25%);
-	background: #FFF;
-}
-
-#menu_principal li ul li{
-	font-family:Raleway, sans-serif;
-	display: inline-block;
-	text-decoration: none;
-	border-radius : 3px;
-	margin: 5px 0px;
-	padding: 14px;
-	border: 1px solid hsl(0,100%,25%) /*maroon*/;
-}
-
-#menu_principal li ul li a{
+	background: none;
+	width: 75%;
 	/*margin: 0px;*/
 	padding:0px;
+	
+}
+/*
+#menu_principal li ul li{
+	margin: 0px;
+	padding:0px;
+}
+*/
+#menu_principal li ul li a{
+	font-family:Raleway, sans-serif;
+	text-decoration: none;
+	border-radius : 3px;
+	display: inline-block;
+	padding: 10px;
 	background: none;
 	color: hsl(0,100%,25%);
 	text-transform: none;
-	border:none;
+	/*border: 1px solid hsl(0,100%,25%);*/
+	/*margin: 0px;*/
 }
 
 #menu_principal li:hover ul{
@@ -108,18 +120,17 @@ header .navigation a:hover{
 	min-height: 0;
 }	
 
-#menu_principal li ul li:hover{
-	background: hsl(0,100%,25%);
+#menu_principal li ul li:hover{		
 	border-radius:0px;
 	display: inline-block;
 	width:100%;
-	margin:0px;
+	/*margin:0px;*/
+	background: hsl(0,100%,25%);
 }
 
 #menu_principal li ul li:hover a{
 	color: #FFF;
-	text-transform: none;
-	/*border:none;*/
+	/*margin: 0px;*/
 }
 
 #menu, #menu ul{
