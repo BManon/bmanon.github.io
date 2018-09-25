@@ -66,12 +66,23 @@ header .navigation a:hover{
 	margin: 0px;
 }
 
-.moi{
+.text{
 	position:relative;
 	top:185px;
 	background: hsl(180,100%,25%);
 	color: white;
 	font-size:20px;
+	padding-top:10px; 
+	padding-bottom:20px;
+	text-align: center; 
+}
+
+.moi{
+	position:relative;
+	top:185px;
+	background: hsl(180,100%,25%);
+	color: white;
+	font-size:18px;
 	padding-top:10px; 
 	padding-bottom:20px;
 	display: flex;
