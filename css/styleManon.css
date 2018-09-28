@@ -69,9 +69,9 @@ header .navigation a:hover{
 .text{
 	position:relative;
 	top:185px;
-	background: hsl(180,100%,25%);
-	color: white;
-	font-size:20px;
+	/*background: hsl(180,100%,25%);*/
+	/*color: white;*/
+	/*font-size:20px;*/
 	padding-top:10px; 
 	padding-bottom:20px;
 	text-align: center; 
@@ -80,9 +80,9 @@ header .navigation a:hover{
 .moi{
 	position:relative;
 	top:185px;
-	background: hsl(180,100%,25%);
-	color: white;
-	font-size:18px;
+	/*background: hsl(180,100%,25%);*/
+	/*	color: white;*/
+	/*font-size:18px;*/
 	padding-top:10px; 
 	padding-bottom:20px;
 	display: flex;
@@ -94,6 +94,7 @@ header .navigation a:hover{
 .moi .element{
 	width:16%;
 	text-align: center;
+	
 }
 
 .moi .element p{
@@ -108,11 +109,22 @@ header .navigation a:hover{
 }
 
 footer{
-	/*background:black;
-	color:white;*/
-	text-align:center;
+	/*background:hsl(180,97.3%,14.3%);*/
+	border-top: solid;
+	border-top-color:hsl(180,97.3%,14.3%);
+	/*color:white;*/
 	position: relative;
-	top:190px;
-	font-style: italic;
+	top:205px;
 	font-size: smaller;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+footer a {
+	color:black;
 }

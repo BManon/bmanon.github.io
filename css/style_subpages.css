@@ -319,3 +319,20 @@ table td{
 	font-size: smaller;
 	text-align: center;
 }
+
+footer{
+	/*background:hsl(180,97.3%,14.3%);*/
+	border-top: solid;
+	border-top-color:hsl(180,97.3%,14.3%);
+	/*color:white;*/
+	position: relative;
+	top:205px;
+	font-size: smaller;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	padding-left:20px;
+	padding-right: 20px;
+}
