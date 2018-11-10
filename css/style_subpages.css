@@ -116,7 +116,7 @@ li {
 	border-radius : 0px;
 	display: inline-block;
 	padding: 10px;
-	background: none;
+	background: white;
 	color: hsl(0,100%,25%);
 	text-transform: none;
 	width:100%;
