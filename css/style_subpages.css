@@ -21,7 +21,7 @@ h2 {
 }
 
 h3{
-	color: hsl(180,97.3%,14.3%) /*blue*/;
+	color: hsl(170,50%,30%) /*blue*/;
 	font-weight: normal;
 	text-align:center;
 }
@@ -286,7 +286,7 @@ table{
 }
 
 thead th{
-	background: hsl(180,97.3%,14.3%);
+	background: hsl(170,50%,30%) /*blue*/;
 	color: #FFF;
 	text-transform: uppercase;
 	margin: 5px 10px;
@@ -328,6 +328,12 @@ table td{
 	text-align:justify;
 }
 
+.emph{
+	text-align: center;
+	color: hsl(170,50%,30%)  /*blue*/;
+	font-weight: bold;
+}
+
 .texte_element{
 	display: inline-block;
 	width:40%;
@@ -361,9 +367,9 @@ table td{
 }
 
 footer{
-	/*background:hsl(180,97.3%,14.3%);*/
+	/*background:hsl(170,50%,30%) ;*/
 	border-top: solid;
-	border-top-color:hsl(180,97.3%,14.3%);
+	border-top-color:hsl(170,50%,30%) ;
 	/*color:white;*/
 	position: relative;
 	top:205px;
