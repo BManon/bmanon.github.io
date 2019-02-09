@@ -41,11 +41,22 @@ header{
 	border: 3px solid #FFF;
 }
 
+header .navigation{
+	
+}
+
+header .navigation ul{
+	display: flex;
+	justify-content: center;
+}
+
 header .navigation a{
+	position: relative;
+	float: none;
 	font-family:Raleway, sans-serif;
 	display: inline-block;
 	background: hsl(0,100%,25%) /*maroon;*/;
-	color: #FFF; /*white*/;
+	color: #FFF; /*white*/
 	text-decoration: none;
 	text-transform: uppercase;
 	border-radius : 3px;
