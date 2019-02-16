@@ -94,14 +94,13 @@ header .navigation a:hover{
 li {
 	border-radius: 15px;
 	padding: 10px 15px;
-	text-align: center;
 	margin: 0px 20px;
 	vertical-align: middle;
 }
 
 #menu_principal li ul {
 	position: absolute;
-	left: -999em;
+	display:none;
 	border-style: solid;
 	border-width: 1px 2px 2px;
 	border-color: hsl(0,100%,25%);
@@ -112,8 +111,7 @@ li {
 }
 
 #menu_principal li:hover ul{
-	left: auto;
-	min-height: 0;
+	display:block;
 }	
 
 #menu_principal li ul a li{
@@ -154,14 +152,13 @@ li {
 
 #menu li:hover ul{
 	left: auto;
-	min-height: 0;
 }	
 
 
 #menu li ul a{
 	width:100%;
 	margin:0px;
-	background: none;
+	background: #FFF;
 	padding:0px;
 	color: hsl(0,100%,25%);
 	text-transform: none;
@@ -176,8 +173,28 @@ li {
 }
 
 
+#menu li ul .deroul ul{  /*Menu à 2étages des US*/
+	position: absolute;
+	display:none;
+	flex-direction:column;
+	width:75%;
+}
 
+#menu li ul .deroul ul a{
+	border-style: none;
+	border-style: solid none none;
+	border-width: 1px;
+	border-radius:0px;
+}
 
+#menu li ul .deroul ul a li{
+	padding:5px 10px;
+	border-style: none;
+}
+
+#menu li ul .deroul:hover ul{
+	display:inline-block;
+}	
 
 
 
